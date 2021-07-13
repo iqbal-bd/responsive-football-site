@@ -82,9 +82,31 @@ players content part
 
 .player{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
 }
 
-.player img{
+.player-details{
+    padding: 15px 15px 15px 15px;
+}
+
+.player-details img{
     width: 300px;
     height: 256px;
+}
+
+
+/******** Match Contents Part *******/
+.match{
+    display: flex;
+}
+
+.match-info{
+    margin: 224px 69px 0 180px;
+}
+
+.match img{
+    width: 567px;
+    height: 427px;
+    margin: 165px 156px 0 69px;
 }
