@@ -34,23 +34,46 @@ body{
     height: 438px;
     margin: 153px 140.99px 86px 0;
 }
+
 .button{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
 }
+
 .button-banner{
-   margin: 38px 0 169px 156px;
+    margin: 38px 0 169px 156px;
 
 }
+
 .button-link{
     width: 88px;
     height: 24px;
     color: #FFFFFF;
     text-decoration: none;
 }
+
 .button-link-span{
     margin: 0 8px;
 }
 
 /********banner part end*******/
+
+
+/*******************
+players content part
+********************/
+
+.players-display{
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+
+.players-box{
+    margin: 70px 210px 165px 180px ;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
