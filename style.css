@@ -71,6 +71,17 @@ players content part
 
 .players-box{
     margin: 70px 210px 165px 180px ;
+    
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 .player img{
