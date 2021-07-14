@@ -113,6 +113,8 @@ players content part
 
 /**********Extra Part********/
 
+/* ***extra part: 01*** */
+
 .extra-items{
     margin-top: 100px;
 }
@@ -125,7 +127,7 @@ players content part
 }
 
 .extra-title{
-   margin: 20px 0 10px 180px;
+    margin: 20px 0 10px 180px;
 }
 .extra-heading{
     font-size: 32px;
@@ -133,4 +135,39 @@ players content part
 }
 .extra-img{
     margin: 70px;
+}
+
+/* ***extra part:02*** */
+
+.news-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 100px 0 20px 0;
+}
+
+.news-channels{
+    display: flex;
+    margin-left: 110px;
+}
+
+.img-channel{
+    width: 300px ;
+    height: 250px;
+}
+
+.goal-img{
+    box-shadow: 0 0 100px #0a063a;
+}
+
+.espn-img{
+    box-shadow: 0 0 100px #b10917;
+}
+
+.bbc-img{
+    box-shadow: 0 0 100px #e7c00f;
+}
+
+.button-extra{
+    margin-left: 60px;
 }
