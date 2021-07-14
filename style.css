@@ -110,3 +110,27 @@ players content part
     height: 427px;
     margin: 165px 156px 0 69px;
 }
+
+/**********Extra Part********/
+
+.extra-items{
+    margin-top: 100px;
+}
+
+.extra-info{
+    display: flex;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 300px;
+}
+
+.extra-title{
+   margin: 20px 0 10px 180px;
+}
+.extra-heading{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.extra-img{
+    margin: 70px;
+}
