@@ -269,3 +269,124 @@ players content part
 .copyright{
     margin: 0 0 63px 570px;
 }
+
+/* 
+*
+*
+*
+*/
+/* ******mobile device***** */
+
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+
+        /* ******header part */
+
+    }
+    header{
+        display: none;
+    }
+
+    /* ******banner part**** */
+
+    .banner:hover .banner-info{
+        display: none;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-title{
+        width: 270px;
+        height: 130px;
+        font-size: 32px;
+        margin: 112px 60px 0 16px;
+    }
+
+    .button-banner{
+        margin: 30px 170px 0 20px ;
+    }
+    .banner-img img{
+        width: 320px;
+        height: 250px;
+        margin: 50px 16px 60px 16px;
+    }
+
+    /* ********Players part******* */
+
+
+    .players-box, .match-info{
+        margin: 50px 15px 0 16px;
+    }    
+    .courses, .blogs, .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    .match{
+        display: flex;
+        flex-direction: column;
+    }
+    .match img{
+        width: 300px;
+        height: 250px;
+        margin: 50px 15px 0 16px;
+    }
+
+/* *******Extra info start****** */
+
+    .extra-info{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+        margin: 50px 15px 0 16px;
+    }
+    .extra-title{
+        margin: 50px 15px 0 16px;
+    }
+    .extra-heading{
+        font-size: 20px;
+    }
+    .extra-img{
+        display: none;
+        margin: 20px 0 0 16px;
+    }
+    .news-channels{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 50px 16px;
+
+    }
+    .button-extra{
+        margin-bottom: 30px;
+    }
+/* *********Extra part end******* */
+
+
+/* *******footer part******* */
+
+    .footer-img img {
+        width: 200px;
+        height: 80px;
+        margin: 10px 0 10px 55px;
+    }
+
+    .footer-icon {
+        width: 172px;
+        height: 32px;
+        margin: 0 0 0 90px;
+    }
+
+    .footer-link {
+        padding: 0 10px;
+        color: gray;
+    }
+
+    .copyright {
+        margin: 0 0 63px 70px;
+    }
+} 
