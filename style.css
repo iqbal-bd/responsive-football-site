@@ -8,7 +8,11 @@ body{
     font-family: 'Poppins',
     sans-serif;
 }
-
+/*
+*
+*
+*
+*/
 /********* banner part ***********/
 
 .banner{
@@ -59,7 +63,11 @@ body{
 
 /********banner part end*******/
 
-
+/*
+*
+*
+*
+*/
 /*******************
 players content part
 ********************/
@@ -102,15 +110,19 @@ players content part
 }
 
 .match-info{
-    margin: 224px 69px 0 180px;
+    margin: 124px 69px 0 180px;
 }
 
 .match img{
     width: 567px;
     height: 427px;
-    margin: 165px 156px 0 69px;
+    margin: 65px 156px 0 69px;
 }
-
+/*
+*
+*
+*
+*/
 /**********Extra Part********/
 
 /* ***extra part: 01*** */
@@ -136,7 +148,11 @@ players content part
 .extra-img{
     margin: 70px;
 }
-
+/**
+*
+*
+*
+*/
 /* ***extra part:02*** */
 
 .news-heading{
@@ -170,4 +186,30 @@ players content part
 
 .button-extra{
     margin-left: 60px;
+}
+/* 
+*
+*
+*
+*
+*/
+/* *****footer part */
+.footer-img img{
+    width: 484px;
+    height: 214px;
+    margin: 100px 482px 0 400px;
+}
+
+.footer-icon{
+    width: 172px;
+    height: 32px;
+    margin: 0 0 0 600px;
+}
+
+.footer-link{
+    padding: 0 10px;
+    color: gray;
+}
+.copyright{
+    margin: 0 0 63px 570px;
 }
