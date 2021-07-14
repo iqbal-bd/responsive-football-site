@@ -14,8 +14,6 @@ body{
 *
 */
 /********* navigation part ***********/
-
-
 header{
     background-color: #2D25A0;
     width: 1440px;
@@ -27,7 +25,6 @@ header{
     width: 1160px;
     height: 44px;
     padding: 42px 0 66px 156px;
-
 }
 
 .navs{
@@ -41,6 +38,7 @@ header{
     font-size: 16px;
     
 }
+
 .nav a{
     color: white;
     text-decoration: none;
@@ -86,7 +84,6 @@ header{
     margin: 198px 108px 38px 204px ;
     width: 485px;
     height: 228px;
-
 }
 
 .banner-img img{
@@ -103,7 +100,6 @@ header{
 
 .button-banner{
     margin: 38px 0 169px 156px;
-
 }
 
 .button-link{
@@ -127,15 +123,13 @@ header{
 /*******************
 players content part
 ********************/
-
 .players-display{
     width: 1440px;
     background-color: #FFFFFF;
 }
 
 .players-box{
-    margin: 70px 210px 165px 180px ;
-    
+    margin: 70px 210px 165px 180px ;   
 }
 
 .players{
@@ -302,23 +296,23 @@ players content part
         width: 270px;
         height: 130px;
         font-size: 32px;
-        margin: 112px 60px 0 16px;
+        margin: 80px 60px 0 200px;
     }
 
     .button-banner{
-        margin: 30px 170px 0 20px ;
+        margin: 30px 170px 0 200px ;
     }
     .banner-img img{
         width: 320px;
         height: 250px;
-        margin: 50px 16px 60px 16px;
+        margin: 50px 16px 60px 150px;
     }
 
     /* ********Players part******* */
 
 
     .players-box, .match-info{
-        margin: 50px 15px 0 16px;
+        margin: 50px 0 0 80px;
     }    
     .courses, .blogs, .players{
         grid-template-columns: repeat(1, 1fr);
@@ -333,7 +327,7 @@ players content part
     .match img{
         width: 300px;
         height: 250px;
-        margin: 50px 15px 0 16px;
+        margin: 50px 15px 0 80px;
     }
 
 /* *******Extra info start****** */
@@ -343,10 +337,10 @@ players content part
         flex-direction: column;
         width: 300px;
         height: 250px;
-        margin: 50px 15px 0 16px;
+        margin: 50px 15px 0 80px;
     }
     .extra-title{
-        margin: 50px 15px 0 16px;
+        margin: 50px 15px 0 40px;
     }
     .extra-heading{
         font-size: 20px;
@@ -358,7 +352,7 @@ players content part
     .news-channels{
         display: flex;
         flex-direction: column;
-        margin: 20px 0 50px 16px;
+        margin: 20px 100px 50px 80px;
 
     }
     .button-extra{
@@ -372,13 +366,13 @@ players content part
     .footer-img img {
         width: 200px;
         height: 80px;
-        margin: 10px 0 10px 55px;
+        margin: 10px 0 10px 120px;
     }
 
     .footer-icon {
         width: 172px;
         height: 32px;
-        margin: 0 0 0 90px;
+        margin: 0 0 0 150px;
     }
 
     .footer-link {
@@ -387,6 +381,136 @@ players content part
     }
 
     .copyright {
-        margin: 0 0 63px 70px;
+        margin: 0 0 63px 130px;
     }
 } 
+/* 
+*
+*
+*
+*
+*/
+/* ******tablet device***** */
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+
+        /* ******header part */
+
+    }
+
+    header {
+        display: none;
+    }
+
+    /* ******banner part**** */
+
+    .banner:hover .banner-info {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-title {
+        width: 470px;
+        height: 230px;
+        font-size: 42px;
+        margin: 60px 0px 0 300px;
+    }
+
+    .button-banner {
+        margin: 0px 170px 0 300px;
+    }
+
+    .banner-img img {
+        width: 320px;
+        height: 250px;
+        margin: 50px 16px 60px 250px;
+    }
+
+    /* ********Players part******* */
+
+
+    .players-box,
+    .match-info {
+        margin: 50px 15px 0 100px;
+    }
+
+    .courses,
+    .blogs,
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+
+    .match img {
+        width: 300px;
+        height: 250px;
+        margin: 50px 15px 0 16px;
+    }
+
+    /* *******Extra info start****** */
+
+    .extra-info {
+        width: 900px;
+        height: 250px;
+        margin: 50px 20px 0 16px;
+    }
+
+    .extra-title {
+        margin: 30px 0 0 50px;
+    }
+
+    .extra-heading {
+        font-size: 20px;
+    }
+
+    .extra-img {
+        margin: 50px 20px 0 0px  ;
+    }
+
+    .news-channels {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 0 50px 16px;
+
+    }
+
+    .button-extra {
+        margin-bottom: 50px;
+    }
+
+    /* *********Extra part end******* */
+
+
+    /* *******footer part******* */
+
+    .footer-img img {
+        width: 400px;
+        height: 180px;
+        margin: 10px 0 10px 200px;
+    }
+
+    .footer-icon {
+        width: 172px;
+        height: 32px;
+        margin: 0 0 0 330px;
+    }
+
+    .footer-link {
+        padding: 0 10px;
+        color: gray;
+    }
+
+    .copyright {
+        margin: 0 0 63px 300px;
+    }
+}
